@@ -1,0 +1,155 @@
+
+/*
+#ff8964;
+#95e780;
+*/
+
+*
+{
+	box-sizing: border-box; 
+	margin: 0;
+	padding: 0;
+}
+
+/*Estilo del body*/
+body
+{
+  background-color: #ff8964;
+  color: #ffff;
+  font-family: Raleway;
+}
+
+/*estilo titulo*/
+.title
+{
+  text-align: right;
+  font-weight: bold;
+  padding: 1px 40px;
+  margin-top: 1em;
+}
+
+/*Estilo subtitulo*/
+.subtitle
+{
+  text-align: right;
+  padding: 1px 40px;
+  margin-bottom: 2em;
+}
+
+/*Primera seccion primera imagen panda*/
+/*imagen Panda 1*/
+.big1
+{
+	width: 100%;
+	height: 32.5em; /*esta sera la altura que tendra la imagen--> cover de la clase de abajo*/
+	text-align: center;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.cover 
+{ 
+	object-fit: cover; /*acomoda la imagen, no sera del alto de la original*/
+}
+
+/*Segunda seccion about*/
+/*Estilo general*/
+.secondSection
+{
+	background-color: #95e780;
+  padding: 4em 4em;
+  margin: 25px 0;
+  width: 100%;
+}
+
+/*Estilo caja de texto about*/
+.rose
+{
+	background-color: #ff8964;
+	padding: 0.2em 3em 3em 3em;
+	text-align: center;
+}
+
+/*estilo titulo about*/
+.aboutTitle
+{
+	font-size: 2em;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*Tercera seccion segunda imagen panda*/
+/*imagen*/
+.big2
+{
+	width: 100%;
+	height: 40em; /*de la clase cover, object-fit: cover;*/
+	text-align: center;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+/*Cuarta seccion*/
+/*Estilo cuarta seccion*/
+.fourthSection
+{
+	background-color: #95e780;
+  padding: 4em 4em;
+  margin: 1.9em 0;
+  width: 100%;
+}
+
+/*Estilo titulo picture*/
+.pictureTitle
+{
+	font-size: 4em;
+	text-align: center;
+	font-weight: bold;
+	color:#fff;
+}
+
+/*Estilo imagenes pequenas del panda*/
+.sm
+{
+	border: 10px white solid;
+}
+
+/*Quinta seccion tercera imagen panda*/
+/*Estilo imagen*/
+.big3
+{
+	width: 100%;
+	height: 40em; /*de la clase cover, object-fit: cover;*/
+	text-align: center;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+/*Seccion footer*/
+/*Estilo footer*/
+.theFooter
+{
+	float: right;
+}
+
+/*Estilo oracion footer*/
+.love-footer
+{
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 5px;
+  width: 100%;
+}
+
+@media (max-width: 1160px) 
+{
+  .rose 
+  {
+ 		width: 100%;
+ 	}
+
+	.sm
+	{
+		width: 100%;
+	}
+}
